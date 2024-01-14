@@ -1,5 +1,6 @@
 package automation.test;
 
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 import baseTest.runner;
@@ -15,8 +16,8 @@ public class TestCase1 extends runner{
 	LoginPageEvents loginPage = new LoginPageEvents();
 
 	@Test
-	public void enteringCredentials() {
-		logger.info("SingIn into LogonPage");
+	public void enteringCredentials (@Optional("chrome") String browser) {
+		logger.info("SingIn into LoginPage");
 		homePage.singInButton();
 		logger.info("Verfing if Login text is present or not");
 		loginPage.verfiyIfLoginPageLoaded();
@@ -24,7 +25,7 @@ public class TestCase1 extends runner{
 		loginPage.enterCredentials();
 	}
 	@Test
-	public void notEnteringCredentials() {
+	public void notEnteringCredentials (@Optional("chrome") String browser) {
 		logger.info("SingIn into LogonPage");
 		homePage.singInButton();
 		logger.info("Verfing if Login text is present or not");
