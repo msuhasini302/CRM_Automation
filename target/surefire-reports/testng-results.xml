@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="4" passed="1" failed="1" skipped="0">
+<testng-results retried="2" ignored="2" total="6" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T07:10:42 IST" name="Suite" finished-at="2024-01-15T07:12:57 IST" duration-ms="135778">
+  <suite started-at="2024-01-17T15:17:01 IST" name="Suite" finished-at="2024-01-17T15:17:38 IST" duration-ms="37468">
     <groups>
     </groups>
-    <test started-at="2024-01-15T07:10:42 IST" name="Test" finished-at="2024-01-15T07:12:57 IST" duration-ms="135778">
+    <test started-at="2024-01-17T15:17:01 IST" name="Test" finished-at="2024-01-17T15:17:38 IST" duration-ms="37468">
       <class name="automation.test.TestCase1">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:10:42 IST" name="beforeTestMethod" finished-at="2024-01-15T07:10:43 IST" duration-ms="1430" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:01 IST" name="beforeTestMethod" finished-at="2024-01-17T15:17:01 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:10:43 IST" name="beforeMethod" finished-at="2024-01-15T07:11:18 IST" duration-ms="34821" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:01 IST" name="beforeTest" finished-at="2024-01-17T15:17:01 IST" depends-on-methods="baseTest.runner.beforeTestMethod" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:01 IST" name="beforeMethod" finished-at="2024-01-17T15:17:10 IST" duration-ms="9275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,14 +24,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void automation.test.TestCase1.enteringCredentials(java.lang.String)]]>
+                <![CDATA[public void automation.test.TestCase1.enteringCredentials(java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:11:18 IST" name="enteringCredentials" finished-at="2024-01-15T07:11:33 IST" duration-ms="15097" status="PASS">
+        <test-method retried="true" signature="enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:10 IST" name="enteringCredentials" finished-at="2024-01-17T15:17:11 IST" duration-ms="749" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -35,55 +39,22 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:11:33 IST" name="afterMethod" finished-at="2024-01-15T07:11:40 IST" duration-ms="6677" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=TestCase1.enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:11:40 IST" name="beforeMethod" finished-at="2024-01-15T07:11:59 IST" duration-ms="19464" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void automation.test.TestCase1.notEnteringCredentials(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:11:59 IST" name="notEnteringCredentials" finished-at="2024-01-15T07:12:11 IST" duration-ms="11541" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.NoSuchFieldError">
             <message>
-              <![CDATA[Element not found expected [true] but found [false]]]>
+              <![CDATA[Factory]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Element not found expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pageEvents.LoginPageEvents.verfiyIfLoginPageNotLoaded(LoginPageEvents.java:14)
-at automation.test.TestCase1.notEnteringCredentials(TestCase1.java:32)
+              <![CDATA[java.lang.NoSuchFieldError: Factory
+at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
+at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:87)
+at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
+at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:260)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+at pageEvents.LoginPageEvents.getDataFromExcel(LoginPageEvents.java:40)
+at automation.test.TestCase1.enteringCredentials(TestCase1.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,22 +89,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoSuchFieldError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- notEnteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:12:11 IST" name="afterMethod" finished-at="2024-01-15T07:12:15 IST" duration-ms="4514" status="PASS">
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:11 IST" name="afterMethod" finished-at="2024-01-17T15:17:12 IST" duration-ms="381" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=notEnteringCredentials status=SKIP method=TestCase1.notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f] output={null}]]]>
+                <![CDATA[[TestResult name=enteringCredentials status=SKIP method=TestCase1.enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:12:15 IST" name="beforeMethod" finished-at="2024-01-15T07:12:40 IST" duration-ms="24755" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:12 IST" name="beforeMethod" finished-at="2024-01-17T15:17:20 IST" duration-ms="7967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,14 +113,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void automation.test.TestCase1.notEnteringCredentials(java.lang.String)]]>
+                <![CDATA[public void automation.test.TestCase1.enteringCredentials(java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:12:40 IST" name="notEnteringCredentials" finished-at="2024-01-15T07:12:50 IST" duration-ms="9987" status="FAIL">
+        <test-method signature="enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:20 IST" name="enteringCredentials" finished-at="2024-01-17T15:17:20 IST" duration-ms="272" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -157,17 +128,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.NoSuchFieldError">
             <message>
-              <![CDATA[Element not found expected [true] but found [false]]]>
+              <![CDATA[Factory]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Element not found expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pageEvents.LoginPageEvents.verfiyIfLoginPageNotLoaded(LoginPageEvents.java:14)
-at automation.test.TestCase1.notEnteringCredentials(TestCase1.java:32)
+              <![CDATA[java.lang.NoSuchFieldError: Factory
+at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
+at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:87)
+at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
+at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:260)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+at pageEvents.LoginPageEvents.getDataFromExcel(LoginPageEvents.java:40)
+at automation.test.TestCase1.enteringCredentials(TestCase1.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -202,22 +178,200 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoSuchFieldError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- notEnteringCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:12:50 IST" name="afterMethod" finished-at="2024-01-15T07:12:56 IST" duration-ms="5292" status="PASS">
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:20 IST" name="afterMethod" finished-at="2024-01-17T15:17:20 IST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=notEnteringCredentials status=FAILURE method=TestCase1.notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@4f80542f] output={null}]]]>
+                <![CDATA[[TestResult name=enteringCredentials status=FAILURE method=TestCase1.enteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:automation.test.TestCase1@4f80542f]" started-at="2024-01-15T07:12:56 IST" name="afterTest" finished-at="2024-01-15T07:12:57 IST" duration-ms="1926" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:20 IST" name="beforeMethod" finished-at="2024-01-17T15:17:29 IST" duration-ms="8502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void automation.test.TestCase1.notEnteringCredentials(java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:29 IST" name="notEnteringCredentials" finished-at="2024-01-17T15:17:29 IST" duration-ms="274" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[Factory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: Factory
+at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
+at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:87)
+at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
+at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:260)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+at pageEvents.LoginPageEvents.getDataFromExcel(LoginPageEvents.java:40)
+at automation.test.TestCase1.notEnteringCredentials(TestCase1.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEnteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:29 IST" name="afterMethod" finished-at="2024-01-17T15:17:29 IST" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=notEnteringCredentials status=SKIP method=TestCase1.notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:29 IST" name="beforeMethod" finished-at="2024-01-17T15:17:37 IST" duration-ms="7771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void automation.test.TestCase1.notEnteringCredentials(java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:37 IST" name="notEnteringCredentials" finished-at="2024-01-17T15:17:37 IST" duration-ms="274" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[Factory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: Factory
+at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
+at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:87)
+at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
+at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:260)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+at pageEvents.LoginPageEvents.getDataFromExcel(LoginPageEvents.java:40)
+at automation.test.TestCase1.notEnteringCredentials(TestCase1.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEnteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:37 IST" name="afterMethod" finished-at="2024-01-17T15:17:38 IST" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=notEnteringCredentials status=FAILURE method=TestCase1.notEnteringCredentials(java.lang.String)[pri:0, instance:automation.test.TestCase1@7eecb5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:automation.test.TestCase1@7eecb5b8]" started-at="2024-01-17T15:17:38 IST" name="afterTest" finished-at="2024-01-17T15:17:38 IST" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -1,10 +1,13 @@
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\pageObject\LoginPageElements.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\utils\Constants.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\baseTest\runner.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\pageEvents\LoginPageEvents.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\utils\WebDriverFactory.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\pageEvents\HomePageEvents.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\utils\ElementFetch.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\utils\RetryAnalyzer.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\pageObject\HomePageElements.java
-C:\Users\Admin\OneDrive\Desktop\qa_automation\src\main\java\utils\SuiteListener.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\logger\ErrorLogger.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\pageObject\LoginPageElements.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\logger\DebugLogger.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\pageEvents\LoginPageEvents.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\utils\Constants.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\utils\SuiteListener.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\baseTest\runner.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\logger\InfoLogger.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\pageEvents\HomePageEvents.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\utils\WebDriverFactory.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\utils\RetryAnalyzer.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\utils\ElementFetch.java
+C:\Users\SuhasiniManuneethi\OneDrive - Kadel Labs Private Limited\Desktop\qa_automation\src\main\java\pageObject\HomePageElements.java
